@@ -51,6 +51,15 @@ coverage.xml
 .pytest_cache/
 cover/
 
+# Virtual environments
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.venv/
+.venv
+
 # Translations
 *.mo
 *.pot
