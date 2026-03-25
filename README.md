@@ -1,0 +1,2 @@
+# botfish
+stockfish but worse
