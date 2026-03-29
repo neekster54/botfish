@@ -1,7 +1,7 @@
 import chess
 
 from engine_protocol import ChessEngine
-from random_base.randombase import RandomMoveEngine
+from minimax_search.minimax_search import MinimaxSearchEngine
 
 
 def _prompt_user_move(board: chess.Board) -> chess.Move:
@@ -24,7 +24,7 @@ def _prompt_user_move(board: chess.Board) -> chess.Move:
 
 def main() -> None:
     board = chess.Board()
-    engine: ChessEngine = RandomMoveEngine()
+    engine: ChessEngine = MinimaxSearchEngine()
     user_color = chess.WHITE
 
     print("Test: You play White, the engine plays Black. Moves in UCI.")
@@ -38,7 +38,7 @@ def main() -> None:
                 return
             board.push(move)
         else:
-            move = engine.choose_move(board)
+            move = engine.choose_move(board, remaining_time_sec=1.0)
             print(f"Engine: {move.uci()}")
             board.push(move)
 
