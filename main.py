@@ -1,7 +1,7 @@
 import chess
 
 from engine_protocol import ChessEngine
-from minimax_search.minimax_search import MinimaxSearchEngine
+from minimax_endgame.minimax_endgame import MinimaxSearchEngine
 
 
 def _prompt_user_move(board: chess.Board) -> chess.Move:

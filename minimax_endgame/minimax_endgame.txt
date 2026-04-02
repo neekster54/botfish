@@ -1,0 +1,12 @@
+
+   # PLAYER                  :  RATING  POINTS  PLAYED   (%)
+   1 Stockfish_2000          :  1834.4   270.0     300    90
+   2 Stockfish_1700          :  1612.3   204.5     300    68
+   3 MadChess_1100           :  1475.1   153.5     300    51
+   4 MinimaxEndgameEngine    :  1401.3   125.5     300    42
+   5 Stockfish_1400          :  1400.0   125.0     300    42
+   6 MadChess_700            :  1044.0    21.5     300     7
+
+White advantage = 0.00
+Draw rate (equal opponents) = 50.00 %
+

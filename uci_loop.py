@@ -3,7 +3,7 @@ import sys
 import chess
 
 from engine_protocol import ChessEngine
-from minimax_search.minimax_search import MinimaxSearchEngine
+from minimax_endgame.minimax_endgame import MinimaxSearchEngine
 
 
 def uci_loop(engine: ChessEngine) -> None:
